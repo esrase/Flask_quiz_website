@@ -3,28 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz</title>
+    <title>QUIZ</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
     <div class="container">
-        <h1>Quiz</h1>
+        <h1>QUIZ</h1>
         <form method="POST">
-            <h3>Question 1: What is your name?</h3>
+            <h3>Question 1: What is the primary library used for deep learning in Python?</h3>
             <input type="text" name="soru1" required><br><br>
 
-            <h3>Question 2: What is your favorite color?</h3>
-            <input type="radio" name="soru2" value="Red"> Red<br>
-            <input type="radio" name="soru2" value="Blue"> Blue<br>
-            <input type="radio" name="soru2" value="Green"> Green<br><br>
+            <h3>Question 2: What technique in NLP is used to split text into individual words or tokens?</h3>
+            <input type="text" name="soru2" required><br><br>
 
-            <h3>Question 3: What is your favorite animal?</h3>
-            <input type="radio" name="soru3" value="Dog"> Dog<br>
-            <input type="radio" name="soru3" value="Cat"> Cat<br>
-            <input type="radio" name="soru3" value="Parrot"> Parrot<br><br>
+            <h3>Question 3: What type of neural network is commonly used for image recognition tasks?</h3>
+            <input type="text" name="soru3" required><br><br>
 
-            <h3>Question 4: Describe your hobbies or interests:</h3>
-            <textarea name="soru4" rows="4" cols="50"></textarea><br><br>
+            <h3>Question 4: What is the process of adjusting a model's hyperparameters to improve performance?</h3>
+            <input type="text" name="soru4" required><br><br>
 
             <input type="submit" value="Submit Answers">
         </form>
@@ -36,8 +32,14 @@
             <h3>Best Score: {{ highscore }}%</h3>
         </div>
         <footer>
-            <p>Here information about author</p>
+            <p>Developed by Esra Sertdal</p>
         </footer>
     </div>
 </body>
 </html>
+
+
+
+
+
+
